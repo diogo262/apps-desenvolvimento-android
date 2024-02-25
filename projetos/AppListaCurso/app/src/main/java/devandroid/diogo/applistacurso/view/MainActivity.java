@@ -1,8 +1,10 @@
-package devandroid.diogo.applistacurso;
+package devandroid.diogo.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.diogo.applistacurso.R;
 
 public class MainActivity extends AppCompatActivity {
 
