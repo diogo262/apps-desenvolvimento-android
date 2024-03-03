@@ -3,6 +3,7 @@ package devandroid.diogo.applistacurso.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.diogo.applistacurso.R;
 import devandroid.diogo.applistacurso.model.Pessoa;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         outraPessoa.setCursoDesejado("Java");
         outraPessoa.setTelefoneContato("11-999229144");
 
+/*
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
         dadosPessoa += " Sobrenome: ";
@@ -50,8 +52,9 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Telefone de Contato: ";
         dadosOutraPessoa += outraPessoa.getTelefoneContato();
-
-
+*/
+        Log.i("POOAndroid","Objeto pessoa: "+pessoa.toString());
+        Log.i("POOAndroid","Objeto outraPessoa: "+outraPessoa.toString());
 
     }
 }
