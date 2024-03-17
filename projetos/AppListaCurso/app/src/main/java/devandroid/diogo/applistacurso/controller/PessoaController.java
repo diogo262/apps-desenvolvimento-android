@@ -1,4 +1,4 @@
 package devandroid.diogo.applistacurso.controller;
 
-public class CursoController {
+public class PessoaController {
 }
